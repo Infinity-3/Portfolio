@@ -1,0 +1,166 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Bilbo+Swash+Caps&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Cinzel:wght@400..900&family=Codystar:wght@300;400&family=Dancing+Script:wght@400..700&family=Doto:wght@100..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Indie+Flower&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Metal+Mania&family=Moon+Dance&family=Noto+Sans+Mongolian&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+IT+Moderna:wght@100..400&display=swap" rel="stylesheet">    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="icon" href="{% static 'images/rlogo.png' %}" type="png/jpeg">
+    <title>Portfolio</title>
+    <!-- <title>ℜΛℑ  Portfolio</title> -->
+</head> 
+<body>
+
+    {% block content %}
+
+    <nav>
+        <a class="logo" href="#"><img src="{% static 'images/rlogo.png' %}" alt="logo"></a>
+        <!-- <a href="#"><img class="logo" src="" alt="logo"></a> -->
+        <div class="navc">
+            <a href="#skills"><label>Skills</label></a>
+            <a href="#projects"><label>Projects</label></a>
+            <a href="#education"><label>Education</label></a>
+            <a href="#contact"><label>Contact</label></a>
+            <!-- <label></label> -->
+        </div>
+    </nav>
+
+    <section class="intro">
+        <div class="introdet">
+            <label class="intro1">HI,<label class="intro2">I'm Rajesh <img src="{% static 'images/hand.gif' %}" alt=""></label></label>
+            <label class="intro3">I'm a <span>PYTHON FULL STACK DEVELOPER</span> with a passion for building impactful digital solutions.
+            <!-- <label class="intro4">This webpage is built using python and django.</label> -->
+            <label class="intro4">I specialize in crafting clean, responsive websites using Python, Django, and modern web tools.
+            <!-- <label class="intro4"> I'm glad you are here.</label> -->
+            I'm eager to apply my knowledge, learn continuously, and contribute to real-world projects.</label></label>
+        </div>
+        <!-- <div class="introwave"><img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTR6NnNxbW1rMXZmYXBhbzA3NzN4NTF3OHk2MnMxdDVmeGlyYzl3aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/ps8PHjL5SB9PoPkfVh/giphy.gif" alt=""></div> -->
+        <div class="introwave">
+            <iframe src="https://drive.google.com/file/d/1eDaayU9iQZE3hN0uRklkMs9l7kPQ4GSz/preview?embedded=true" allowfullscreen="false"></iframe> 
+            <!-- <iframe src="https://drive.google.com/file/d/1eDaayU9iQZE3hN0uRklkMs9l7kPQ4GSz/preview?embedded=true" allow="autoplay"></iframe> -->
+            <div class="intropro">
+                <a href="https://drive.google.com/file/d/1eDaayU9iQZE3hN0uRklkMs9l7kPQ4GSz/view?usp=sharing" target="_blank" class="profile1"><svg version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <style type="text/css"> .st0{fill:#000000;} </style> <g> <path class="st0" d="M276.239,252.183c-6.37,2.127-13.165,3.308-20.239,3.308c-7.074,0-13.87-1.181-20.24-3.308 c-46.272,7.599-70.489,41.608-70.489,82.877H256h90.728C346.728,293.791,322.515,259.782,276.239,252.183z"></path> <path class="st0" d="M256,240.788c27.43,0,49.658-22.24,49.658-49.666v-14.087c0-27.426-22.228-49.659-49.658-49.659 c-27.43,0-49.658,22.233-49.658,49.659v14.087C206.342,218.548,228.57,240.788,256,240.788z"></path> <path class="st0" d="M378.4,0H133.582C86.234,0,47.7,38.542,47.7,85.899v340.22C47.7,473.476,86.234,512,133.582,512h205.695 h13.175l9.318-9.301l93.229-93.229l9.301-9.31v-13.174V85.899C464.3,38.542,425.766,0,378.4,0z M432.497,386.985H384.35 c-24.882,0-45.074,20.183-45.074,45.073v48.139H133.582c-29.866,0-54.078-24.221-54.078-54.078V85.899 c0-29.874,24.212-54.096,54.078-54.096H378.4c29.876,0,54.096,24.222,54.096,54.096V386.985z"></path> </g> </g></svg></a>
+                <a href="https://www.linkedin.com/in/%E2%84%9C%CE%BB%E2%84%91-%E2%88%86-316354248/" target="_blank" class="profile2"><svg fill="#000000" version="1.1" id="Shopicons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <style type="text/css"> .st0{fill:none;} </style> <g> <path class="st0" d="M0,0h48v48H0V0z"></path> <path d="M34,4H14C8.5,4,4,8.5,4,14v20c0,5.5,4.5,10,10,10h20c5.5,0,10-4.5,10-10V14C44,8.5,39.5,4,34,4z M17,35h-4V20h4V35z M15,17 c-1.1,0-2-0.9-2-2c0-1.1,0.9-2,2-2s2,0.9,2,2C17,16.1,16.1,17,15,17z M35,35h-4v-7.5c0-2.5-1-3.6-3-3.6L24,24v11h-4V20l8-0.2 c3.4,0,7,2,7,7.6V35z"></path> </g> </g></svg></a>
+                <a href="https://github.com/Infinity-3" target="_blank" class="profile3"><svg viewBox="-2 -2 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18.88 1.099C18.147.366 17.265 0 16.233 0H3.746C2.714 0 1.832.366 1.099 1.099.366 1.832 0 2.714 0 3.746v12.487c0 1.032.366 1.914 1.099 2.647.733.733 1.615 1.099 2.647 1.099H6.66c.19 0 .333-.007.429-.02a.504.504 0 0 0 .286-.169c.095-.1.143-.245.143-.435l-.007-.885c-.004-.564-.006-1.01-.006-1.34l-.3.052c-.19.035-.43.05-.721.046a5.555 5.555 0 0 1-.904-.091 2.026 2.026 0 0 1-.872-.39 1.651 1.651 0 0 1-.572-.8l-.13-.3a3.25 3.25 0 0 0-.41-.663c-.186-.243-.375-.407-.566-.494l-.09-.065a.956.956 0 0 1-.17-.156.723.723 0 0 1-.117-.182c-.026-.061-.004-.111.065-.15.07-.04.195-.059.378-.059l.26.04c.173.034.388.138.643.311a2.1 2.1 0 0 1 .631.677c.2.355.44.626.722.813.282.186.566.28.852.28.286 0 .533-.022.742-.065a2.59 2.59 0 0 0 .585-.196c.078-.58.29-1.028.637-1.34a8.907 8.907 0 0 1-1.333-.234 5.314 5.314 0 0 1-1.223-.507 3.5 3.5 0 0 1-1.047-.872c-.277-.347-.505-.802-.683-1.365-.177-.564-.266-1.215-.266-1.952 0-1.049.342-1.942 1.027-2.68-.32-.788-.29-1.673.091-2.652.252-.079.625-.02 1.119.175.494.195.856.362 1.086.5.23.14.414.257.553.352a9.233 9.233 0 0 1 2.497-.338c.859 0 1.691.113 2.498.338l.494-.312a6.997 6.997 0 0 1 1.197-.572c.46-.174.81-.221 1.054-.143.39.98.424 1.864.103 2.653.685.737 1.028 1.63 1.028 2.68 0 .737-.089 1.39-.267 1.957-.177.568-.407 1.023-.689 1.366-.282.343-.633.63-1.053.865-.42.234-.828.403-1.223.507a8.9 8.9 0 0 1-1.333.235c.45.39.676 1.005.676 1.846v3.11c0 .147.021.266.065.357a.36.36 0 0 0 .208.189c.096.034.18.056.254.064.074.01.18.013.318.013h2.914c1.032 0 1.914-.366 2.647-1.099.732-.732 1.099-1.615 1.099-2.647V3.746c0-1.032-.367-1.914-1.1-2.647z"></path></svg></a>
+            </div>   
+        </div>
+    </section> 
+
+    <section class="skills" id="skills">
+        <p class="stitle">I'm good at</p>
+        <div class="skcont">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-50.37 -50.37 604.42 604.42" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0" transform="translate(0,0), scale(1)"><path transform="translate(-50.37, -50.37), scale(37.77625)" fill="#b3d9e6" d="M9.166.33a2.25 2.25 0 00-2.332 0l-5.25 3.182A2.25 2.25 0 00.5 5.436v5.128a2.25 2.25 0 001.084 1.924l5.25 3.182a2.25 2.25 0 002.332 0l5.25-3.182a2.25 2.25 0 001.084-1.924V5.436a2.25 2.25 0 00-1.084-1.924L9.166.33z" strokewidth="0"></path></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g transform="translate(1 1)"> <path style="fill:#FFD7D7;" d="M250.84,327.746c5.12,0,8.533,4.267,8.533,8.533s-3.413,8.533-8.533,8.533s-8.533-4.267-8.533-8.533 S245.72,327.746,250.84,327.746L250.84,327.746z"></path> <path style="fill:#F2EDDA;" d="M498.307,37.613v256H378.84V71.746L336.173,3.48h128C481.24,3.48,498.307,20.546,498.307,37.613z M122.84,259.48v34.133H3.373v-256C3.373,20.546,20.44,3.48,37.507,3.48h51.2h34.133v51.2v34.133v34.133v34.133v34.133v34.133 V259.48z M336.173,3.48l-42.667,68.267v221.867h-34.133V3.48H336.173z"></path> <polygon style="fill:#ECF4F7;" points="336.173,3.48 378.84,71.746 293.507,71.746 "></polygon> <polygon style="fill:#80D6FA;" points="336.173,293.613 293.507,293.613 293.507,71.746 378.84,71.746 378.84,293.613 "></polygon> <polygon style="fill:#ECF4F7;" points="208.173,447.213 293.507,447.213 293.507,378.947 208.173,378.947 "></polygon> <polygon style="fill:#FFE079;" points="122.84,225.346 122.84,191.213 122.84,157.08 122.84,122.946 122.84,88.813 122.84,54.68 122.84,3.48 259.373,3.48 259.373,293.613 122.84,293.613 122.84,259.48 "></polygon> <g> <path style="fill:#ECF4F7;" d="M498.307,293.613v51.2c0,17.067-17.067,34.133-34.133,34.133H293.507h-85.333H37.507 c-17.067,0-34.133-17.067-34.133-34.133v-51.2H122.84h136.533h34.133h42.667h42.667H498.307z"></path> <path style="fill:#ECF4F7;" d="M464.173,489.88v8.533h-68.267v-8.533c0-14.507,11.093-25.6,25.6-25.6h17.067 C453.08,464.28,464.173,475.373,464.173,489.88"></path> </g> </g> <path style="fill:#51565F;" d="M465.173,503.68h-68.267c-2.56,0-4.267-1.707-4.267-4.267v-8.533 c0-16.213,13.653-29.867,29.867-29.867h17.067c16.213,0,29.867,13.653,29.867,29.867v8.533 C469.44,501.973,467.733,503.68,465.173,503.68z M401.173,495.147h59.733v-4.267c0-11.947-9.387-21.333-21.333-21.333h-17.067 c-11.947,0-21.333,9.387-21.333,21.333V495.147z M345.707,503.68h-307.2c-2.56,0-4.267-1.707-4.267-4.267s1.707-4.267,4.267-4.267 h12.8v-12.8c0-2.56,1.707-4.267,4.267-4.267c2.56,0,4.267,1.707,4.267,4.267v12.8h25.6v-12.8c0-2.56,1.707-4.267,4.267-4.267 s4.267,1.707,4.267,4.267v12.8h25.6v-12.8c0-2.56,1.707-4.267,4.267-4.267c2.56,0,4.267,1.707,4.267,4.267v12.8h25.6v-12.8 c0-2.56,1.707-4.267,4.267-4.267s4.267,1.707,4.267,4.267v12.8h25.6v-12.8c0-2.56,1.707-4.267,4.267-4.267s4.267,1.707,4.267,4.267 v12.8h25.6v-12.8c0-2.56,1.707-4.267,4.267-4.267c2.56,0,4.267,1.707,4.267,4.267v12.8h25.6v-12.8c0-2.56,1.707-4.267,4.267-4.267 s4.267,1.707,4.267,4.267v12.8h25.6v-12.8c0-2.56,1.707-4.267,4.267-4.267s4.267,1.707,4.267,4.267v12.8h25.6v-12.8 c0-2.56,1.707-4.267,4.267-4.267s4.267,1.707,4.267,4.267v12.8h12.8c2.56,0,4.267,1.707,4.267,4.267S348.267,503.68,345.707,503.68z M294.507,452.48c-2.56,0-4.267-1.707-4.267-4.267V414.08c0-2.56,1.707-4.267,4.267-4.267s4.267,1.707,4.267,4.267v34.133 C298.773,450.773,297.067,452.48,294.507,452.48z M209.173,452.48c-2.56,0-4.267-1.707-4.267-4.267V414.08 c0-2.56,1.707-4.267,4.267-4.267s4.267,1.707,4.267,4.267v34.133C213.44,450.773,211.733,452.48,209.173,452.48z M465.173,384.213 H38.507c-19.627,0-38.4-18.773-38.4-38.4v-51.2c0-2.56,1.707-4.267,4.267-4.267h460.8c2.56,0,4.267,1.707,4.267,4.267 c0,2.56-1.707,4.267-4.267,4.267H8.64v46.933c0,14.507,15.36,29.867,29.867,29.867h426.667c14.507,0,29.867-15.36,29.867-29.867 v-307.2c0-14.507-15.36-29.867-29.867-29.867H379.84c-2.56,0-4.267-1.707-4.267-4.267s1.707-4.267,4.267-4.267h85.333 c19.627,0,38.4,18.773,38.4,38.4v307.2C503.573,365.44,484.8,384.213,465.173,384.213z M251.84,350.08 c-6.827,0-12.8-5.973-12.8-12.8c0-6.827,5.973-12.8,12.8-12.8c6.827,0,12.8,5.973,12.8,12.8 C264.64,344.106,258.667,350.08,251.84,350.08z M251.84,333.013c-2.56,0-4.267,1.707-4.267,4.267c0,2.56,1.707,4.267,4.267,4.267 s4.267-1.707,4.267-4.267C256.107,334.72,254.4,333.013,251.84,333.013z M379.84,264.746c-2.56,0-4.267-1.707-4.267-4.267v-153.6 c0-2.56,1.707-4.267,4.267-4.267s4.267,1.707,4.267,4.267v153.6C384.107,263.04,382.4,264.746,379.84,264.746z M337.173,264.746 c-2.56,0-4.267-1.707-4.267-4.267v-153.6c0-2.56,1.707-4.267,4.267-4.267s4.267,1.707,4.267,4.267v153.6 C341.44,263.04,339.733,264.746,337.173,264.746z M294.507,264.746c-2.56,0-4.267-1.707-4.267-4.267V72.746 c0-0.853,0-1.707,0.853-2.56L333.76,1.92c1.707-2.56,5.973-2.56,6.827,0l42.667,68.267c0.853,1.707,0.853,2.56,0,4.267 c-0.853,1.707-2.56,2.56-3.413,2.56h-51.2c-2.56,0-4.267-1.707-4.267-4.267c0-2.56,1.707-4.267,4.267-4.267h43.52l-34.987-56.32 l-38.4,61.44v186.88C298.773,263.04,297.067,264.746,294.507,264.746z M260.373,264.746c-2.56,0-4.267-1.707-4.267-4.267V8.746h-128 v42.667h46.933c2.56,0,4.267,1.707,4.267,4.267s-1.707,4.267-4.267,4.267h-46.933v25.6h12.8c2.56,0,4.267,1.707,4.267,4.267 s-1.707,4.267-4.267,4.267h-12.8v25.6h12.8c2.56,0,4.267,1.707,4.267,4.267c0,2.56-1.707,4.267-4.267,4.267h-12.8v25.6h46.933 c2.56,0,4.267,1.707,4.267,4.267c0,2.56-1.707,4.267-4.267,4.267h-46.933v25.6h12.8c2.56,0,4.267,1.707,4.267,4.267 c0,2.56-1.707,4.267-4.267,4.267h-12.8v25.6h12.8c2.56,0,4.267,1.707,4.267,4.267s-1.707,4.267-4.267,4.267h-12.8v29.867 c0,2.56-1.707,4.267-4.267,4.267c-2.56,0-4.267-1.707-4.267-4.267v-256c0-2.56,1.707-4.267,4.267-4.267h136.533 c2.56,0,4.267,1.707,4.267,4.267v256C264.64,263.04,262.933,264.746,260.373,264.746z M4.373,264.746 c-2.56,0-4.267-1.707-4.267-4.267V38.613c0-19.627,18.773-38.4,38.4-38.4h51.2c2.56,0,4.267,1.707,4.267,4.267 s-1.707,4.267-4.267,4.267h-51.2C24,8.746,8.64,24.106,8.64,38.613V260.48C8.64,263.04,6.933,264.746,4.373,264.746z"></path> </g></svg>
+            <div class="sk">
+                {% for skey,sval in skil.items %}
+                <div class="skimg">
+                    <img src="{{ sval }}" title="{{ skey }}" alt="{{ skey }}">
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>   
+    
+    <!-- <section class="experience"></section> -->
+
+    <section class="projects" id="projects">
+        <p class="ptitle">Projects</p>
+        <div class="projbox">
+            {% for pr in proj %}
+            <a href="{{ pr.projlink }}" target="_blank">
+                <div class="proj">
+                    {% if pr.projimg %}
+                        <img src="{% static pr.projdp %}" alt="{{ pr.projtitle }}">
+                    {% else %}
+                        <img src="{{ pr.projdp }}" alt="{{ pr.projtitle }}">
+                    {% endif %}
+                    <div class="pdesc">
+                        <label class="pname">{{ pr.projtitle }}</label>
+                        <label class="pdesc">{{ pr.projdesc }}</label>
+                    </div>
+                    {% if pr.projqr %}
+                    <img id="qrimg" src="{% static pr.projqr %}" alt="">
+                    {% endif %}
+                </div>
+            </a> 
+            {% endfor %}
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <p class="etitle">Education </p>
+        <div class="educont">
+            <div class="educbox">
+                {% for ekey,eval in edu.items %}
+                <div class="edu">
+                    <article class="ed1">{{ ekey }} - {{ eval.0 }}</article>
+                    <article class="ed2">{{ eval.1 }}</article>
+                    <article class="ed3">Completed with {{ eval.2 }}</article>
+                    <!-- <article class="ed4"></article> -->
+                </div>
+                {% endfor %}
+            </div>
+                
+            <svg version="1.1" id="Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <style type="text/css"> .st0{fill:#FFFFFF;} </style> <g> <path d="M31,26c-0.6,0-1-0.4-1-1V12c0-0.6,0.4-1,1-1s1,0.4,1,1v13C32,25.6,31.6,26,31,26z"></path> </g> <g> <path d="M16,21c-0.2,0-0.3,0-0.5-0.1l-15-8C0.2,12.7,0,12.4,0,12s0.2-0.7,0.5-0.9l15-8c0.3-0.2,0.6-0.2,0.9,0l15,8 c0.3,0.2,0.5,0.5,0.5,0.9s-0.2,0.7-0.5,0.9l-15,8C16.3,21,16.2,21,16,21z"></path> </g> <path d="M17.4,22.6C17,22.9,16.5,23,16,23s-1-0.1-1.4-0.4L6,18.1V22c0,3.1,4.9,6,10,6s10-2.9,10-6v-3.9L17.4,22.6z"></path> </g></svg>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <p class="ctitle">Reach Me Out</p>
+        <div class="contc">
+            <article id="contart">
+                <!-- <label class="ctitle">Reach Me Out</label>  -->
+                <label>Got a question, a project in mind, or just want to say hello?I’d love to hear from you.</label>
+                <label>✉️ Drop me a message | 📞 Let's talk | 🔗 Find me online </label>
+                <span>Feel free & Click here to connect with me 👉
+                    <!-- <svg id="contsvg" onclick="mygrid()" fill="#52cde5" viewBox="-6.4 -6.4 76.80 76.80" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" stroke="#52cde5" transform="matrix(1, 0, 0, 1, 0, 0)rotate(0)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="4.096"></g><g id="SVGRepo_iconCarrier"> <g id="_x32_5_attachment"></g> <g id="_x32_4_office"></g> <g id="_x32_3_pin"></g> <g id="_x32_2_business_card"></g> <g id="_x32_1_form"></g> <g id="_x32_0_headset"></g> <g id="_x31_9_video_call"></g> <g id="_x31_8_letter_box"></g> <g id="_x31_7_papperplane"> <g> <g> <path d="M62.9891,2.5618c-0.0765-0.5779-0.6611-0.9805-1.2299-0.8401L7.4043,15.2065c-0.3535,0.0879-0.6318,0.3608-0.7256,0.7129 s0.0112,0.7275,0.2744,0.9795l13.9343,13.3583l-2.7649,17.1495c-0.1079,0.6712,0.4969,1.2576,1.1582,1.1445l18.0805-3.1324 l17.1832,9.6988c0.1523,0.0859,0.3218,0.1289,0.4917,0.1289c0.1523,0,0.3047-0.0347,0.4453-0.1045 c0.2969-0.1475,0.5015-0.4331,0.5459-0.7617l6.9639-51.5542C63.0031,2.7372,63.0007,2.6487,62.9891,2.5618z M9.647,16.7109 L56.8914,4.9902L22.2545,28.7978L9.647,16.7109z M36.9146,43.4663l-16.5942,2.875l2.4995-15.5054L58.8633,6.0615L36.9146,43.4663 z M54.2427,52.6504l-15.3231-8.6492l21.4231-36.509L54.2427,52.6504z"></path> <path d="M14.4438,51.6099l-4.6948,5.209c-0.3701,0.4102-0.3369,1.0425,0.0732,1.4121c0.1909,0.1724,0.4307,0.2573,0.6689,0.2573 c0.2734,0,0.5459-0.1113,0.7432-0.3306l4.6948-5.209c0.3701-0.4102,0.3369-1.0425-0.0732-1.4121 C15.4463,51.1675,14.8135,51.2002,14.4438,51.6099z"></path> <path d="M5.9478,29.0562l-4.6909,5.2085c-0.3696,0.4106-0.3364,1.043,0.0742,1.4126c0.1909,0.1719,0.4302,0.2568,0.6685,0.2568 c0.2739,0,0.5459-0.1113,0.7437-0.3311l4.6909-5.2085c0.3696-0.4106,0.3364-1.043-0.0742-1.4126 C6.9487,28.6128,6.3179,28.6455,5.9478,29.0562z"></path> <path d="M40.8164,55.4331l-4.6909,5.2051c-0.3701,0.4102-0.3369,1.0425,0.0732,1.4121c0.1909,0.1724,0.4307,0.2573,0.6689,0.2573 c0.2734,0,0.5459-0.1113,0.7432-0.3306l4.6909-5.2051c0.3701-0.4102,0.3369-1.0425-0.0732-1.4121 C41.8188,54.9907,41.186,55.0234,40.8164,55.4331z"></path> </g> </g> </g> <g id="_x31_6_laptop"></g> <g id="_x31_5_connection"></g> <g id="_x31_4_phonebook"></g> <g id="_x31_3_classic_telephone"></g> <g id="_x31_2_sending_mail"></g> <g id="_x31_1_man_talking"></g> <g id="_x31_0_date"></g> <g id="_x30_9_review"></g> <g id="_x30_8_email"></g> <g id="_x30_7_information"></g> <g id="_x30_6_phone_talking"></g> <g id="_x30_5_women_talking"></g> <g id="_x30_4_calling"></g> <g id="_x30_3_women"></g> <g id="_x30_2_writing"></g> <g id="_x30_1_chatting"></g> </g></svg> -->
+                    <svg id="contsvg" class="svg-icon" onclick="mygrid()" viewBox="-6.4 -6.4 76.80 76.80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="4.096"></g><g id="SVGRepo_iconCarrier"><g id="_x31_7_papperplane"><g><g><path d="M62.9891,2.5618c-0.0765-0.5779-0.6611-0.9805-1.2299-0.8401L7.4043,15.2065c-0.3535,0.0879-0.6318,0.3608-0.7256,0.7129s0.0112,0.7275,0.2744,0.9795l13.9343,13.3583l-2.7649,17.1495c-0.1079,0.6712,0.4969,1.2576,1.1582,1.1445l18.0805-3.1324l17.1832,9.6988c0.1523,0.0859,0.3218,0.1289,0.4917,0.1289c0.1523,0,0.3047-0.0347,0.4453-0.1045c0.2969-0.1475,0.5015-0.4331,0.5459-0.7617l6.9639-51.5542C63.0031,2.7372,63.0007,2.6487,62.9891,2.5618zM9.647,16.7109L56.8914,4.9902L22.2545,28.7978L9.647,16.7109z M36.9146,43.4663l-16.5942,2.875l2.4995-15.5054L58.8633,6.0615L36.9146,43.4663z M54.2427,52.6504l-15.3231-8.6492l21.4231-36.509L54.2427,52.6504z" /><path class="wind-line" d="M14.4438,51.6099l-4.6948,5.209c-0.3701,0.4102-0.3369,1.0425,0.0732,1.4121c0.1909,0.1724,0.4307,0.2573,0.6689,0.2573c0.2734,0,0.5459-0.1113,0.7432-0.3306l4.6948-5.209c0.3701-0.4102,0.3369-1.0425-0.0732-1.4121C15.4463,51.1675,14.8135,51.2002,14.4438,51.6099z" /><path class="wind-line" d="M5.9478,29.0562l-4.6909,5.2085c-0.3696,0.4106-0.3364,1.043,0.0742,1.4126c0.1909,0.1719,0.4302,0.2568,0.6685,0.2568c0.2739,0,0.5459-0.1113,0.7437-0.3311l4.6909-5.2085c0.3696-0.4106,0.3364-1.043-0.0742-1.4126C6.9487,28.6128,6.3179,28.6455,5.9478,29.0562z" /><path class="wind-line" d="M40.8164,55.4331l-4.6909,5.2051c-0.3701,0.4102-0.3369,1.0425,0.0732,1.4121c0.1909,0.1724,0.4307,0.2573,0.6689,0.2573c0.2734,0,0.5459-0.1113,0.7432-0.3306l4.6909-5.2051c0.3701-0.4102,0.3369-1.0425-0.0732-1.4121C41.8188,54.9907,41.186,55.0234,40.8164,55.4331z" /></g></g></g></g></svg>
+                </span>
+            </article>
+            <div class="contbox">
+                {% for ckey,cval in contact.items %}
+                <div class="cont" title="">
+                    <img src="{{ cval.0 }}" alt="">
+                    <a href="{{ cval.1 }}" target="_blank">{{ ckey }}</a>
+                    <!-- <p>{{ ckey }} - {{ cval.2 }}</p> -->
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+
+    <section class="footer"> <p>&copy; copyrights 2025 - Rajesh Koundinya N</p></section>
+    {% endblock %}
+    
+    <script>
+        function mygrid() {
+            // const wid = document.getElementById('contart')
+            // wid.style.width='50%';
+            const wid = document.getElementById('contart');
+            function updateWidth() {
+                if (window.innerWidth <= 480) {
+                    wid.style.width = '100%';
+
+                } else {
+                    wid.style.width = '45%';
+                }
+            }
+            updateWidth();
+            // window.addEventListener('resize', updateWidth);
+
+            const contsvg = document.getElementById('contsvg')
+            contsvg.style.display = 'none'
+
+            const div = document.getElementsByClassName("contbox")[0]; // Access first element
+            if (div) {
+            div.style.display = "grid";
+            // div.style.
+            div.style.animation = 'bounce-right 1.8s ease-in-out 1' 
+            }
+            document.getElementById('contart').scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+
+
+</body>
+</html>

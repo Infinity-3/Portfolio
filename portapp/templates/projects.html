@@ -1,0 +1,15 @@
+{% block content %}
+
+<section class="projects">
+    <p>Projects</p>
+    {% for i in proj %}
+    <div class="proj">
+        <a href=""><img src="" alt=""></a>
+        <label class="">{{ i.projtitle }}</label>
+        <label class="">{{ i }}</label>
+        <img src="" alt="">
+    </div> 
+    {% endfor %}
+</section>
+
+{% endblock %}
