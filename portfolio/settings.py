@@ -28,7 +28,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["localhost",
     "127.0.0.1",
-    "infinty-portfolio.vercel.app",".vercel.app"]infinty-portfolio.vercel.app
+    "infinty-portfolio.vercel.app",".vercel.app"]
 
 
 # Application definition
